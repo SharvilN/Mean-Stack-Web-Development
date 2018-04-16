@@ -1,0 +1,23 @@
+<div class="jumbotron text-center">
+  <h1>Wait But Why</h1>
+  <p class="lead">New Post every sometimes</p>
+  <div>
+    <a *ngIf="!authService.loggedIn()" routerLink="/register" class="btn btn-primary">Register</a>
+    <a *ngIf="!authService.loggedIn()" routerLink="/login" class="btn btn-default">Login</a>
+    <a *ngIf="authService.loggedIn()" routerLink="/blog" class="btn btn-success">View Blogs</a>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12 col-md-12">
+      <div class="caption">
+        <h3 style="text-align: center">Neuralink and the Brain’s Magical Future</h3>
+        <p>Okay maybe that’s not exactly how it happened, and maybe those weren’t his exact words. But after learning about the new company Elon Musk was starting, I’ve come to realize that that’s exactly what he’s trying to do.
+          When I wrote about Tesla and SpaceX, I learned that you can only fully wrap your head around certain companies by zooming both way, way in and way, way out. In, on the technical challenges facing the engineers, out on the existential challenges facing our species. In on a snapshot of the world right now, out on the big story of how we got to this moment and what our far future could look like.
+          Not only is Elon’s new venture—Neuralink—the same type of deal, but six weeks after first learning about the company, I’m convinced that it somehow manages to eclipse Tesla and SpaceX in both the boldness of its engineering undertaking and the grandeur of its mission. The other two companies aim to redefine what future humans will do—Neuralink wants to redefine what future humans will be.
+          The mind-bending bigness of Neuralink’s mission, combined with the labyrinth of impossible complexity that is the human brain, made this the hardest set of concepts yet to fully wrap my head around—but it also made it the most exhilarating when, with enough time spent zoomed on both ends, it all finally clicked. I feel like I took a time machine to the future, and I’m here to tell you that it’s even weirder than we expect.
+          But before I can bring you in the time machine to show you what I found, we need to get in our zoom machine—because as I learned the hard way, Elon’s wizard hat plans cannot be properly understood until your head’s in the right place.
+          So wipe your brain clean of what it thinks it knows about itself and its future, put on soft clothes, and let’s jump into the vortex.</p>
+      </div>
+    </div>
+  </div>
